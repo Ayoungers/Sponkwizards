@@ -4,11 +4,6 @@ using UnityEngine;
 
 public class UnitController : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
 	// Update is called once per frame
 	void Update () {
         Vector2 direction = Vector2.zero;
