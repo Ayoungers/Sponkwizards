@@ -167,6 +167,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e802b00dee9f04ca6b74d2f1cdf0db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attacks: []
 --- !u!1 &463875868
 GameObject:
   m_ObjectHideFlags: 0
@@ -311,6 +312,7 @@ GameObject:
   - component: {fileID: 495778439}
   - component: {fileID: 495778438}
   - component: {fileID: 495778440}
+  - component: {fileID: 495778441}
   m_Layer: 0
   m_Name: blobbo
   m_TagString: Untagged
@@ -375,6 +377,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d9e802b00dee9f04ca6b74d2f1cdf0db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attacks:
+  - {fileID: 495778441}
+--- !u!114 &495778441
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 495778437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 61c551680e9c5a9438ecd679a2dc4892, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &656749519
@@ -517,6 +532,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e802b00dee9f04ca6b74d2f1cdf0db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attacks: []
 --- !u!1 &1239518515
 GameObject:
   m_ObjectHideFlags: 0
@@ -527,6 +543,7 @@ GameObject:
   - component: {fileID: 1239518517}
   - component: {fileID: 1239518516}
   - component: {fileID: 1239518518}
+  - component: {fileID: 1239518519}
   m_Layer: 0
   m_Name: durgon
   m_TagString: Untagged
@@ -590,7 +607,20 @@ MonoBehaviour:
   m_GameObject: {fileID: 1239518515}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d9e802b00dee9f04ca6b74d2f1cdf0db, type: 3}
+  m_Script: {fileID: 11500000, guid: dc4e75c3e4b432249b8b622ad0ee8353, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attacks:
+  - {fileID: 1239518519}
+--- !u!114 &1239518519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1239518515}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7482311496319bf4c8e12a63868e37c1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1487707607
@@ -733,3 +763,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d9e802b00dee9f04ca6b74d2f1cdf0db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  attacks: []

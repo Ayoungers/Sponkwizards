@@ -86,11 +86,14 @@ public class GameController : MonoBehaviour
             currentState = state.Select;
             cursor.transform.position = units[currentUnit].transform.position;
             cursor.GetComponent<SpriteRenderer>().enabled = true;
+        } else if (Input.GetKeyDown(KeyCode.Z))
+        {
+            units[currentUnit].GetComponent<Unit>().attacks[0].Execute();
         }
 
         if (direction != Vector2.zero)
         {
-            units[currentUnit].transform.position = units[currentUnit].transform.position + (Vector3)direction;
+            units[currentUnit].GetComponent<Unit>().Move((Vector3)direction);
         }
 
     }
